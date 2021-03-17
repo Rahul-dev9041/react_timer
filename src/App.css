@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Pirata+One&display=swap');
+
+.hero{
+  background: black url(https://i.pinimg.com/originals/57/ae/93/57ae93462971760386cadfe7195efef6.jpg) center/cover;
+}
+
+@media (max-width: 1024px) {
+.hero{
+  background: black url(https://i.pinimg.com/originals/57/ae/93/57ae93462971760386cadfe7195efef6.jpg) center/cover;
+}
+}
+
+@media (max-width: 768px) {
+  .hero{
+    background: black url(https://i.pinimg.com/originals/57/ae/93/57ae93462971760386cadfe7195efef6.jpg) center/cover;
+  }
+  }
+
+  .center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 60px;
+    font-family: 'Anton', sans-serif;
+font-family: 'Pirata One', cursive;
+  }
